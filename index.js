@@ -8,7 +8,7 @@ import App from './App';
 import { name as appName } from './app.json';
 import { Provider } from 'react-redux';
 
-import configurestore from '../store';
+import configurestore from './store';
 
 const store = configurestore()
 
